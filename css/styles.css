@@ -4,3 +4,9 @@
   text-align: center;
   color: white;
 }
+.sidebar {
+  background-color: rgb(255, 255, 128);
+  float: left;
+  height: 600px;
+  margin-right: 20px;
+}
