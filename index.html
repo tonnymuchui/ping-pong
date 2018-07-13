@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>ping pong</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/scripts.js"></script>
+
 </head>
+
 <body>
   <div class="container">
-<div class="jumbotron"><h1><strong>my ping pong</strong></h1></div>
-<div class="sidebar"><h2><strong>PING PONG</strong></h2>
-  <h3>Created by;</h3><p><em>Tonny muchui</em></p>
-  <h4> <em>numbers</em></h4></div>
-<h2>Let's play</h2><h3>Rules;</h3>
-<p>ping pong will count up to your numbers from 1 with the following exceptions:</p>
-<ol>
-  <li>Numbers divisible by 3 become "ping"</li>
-  <li>Numbers divisible by 5 become "pong"</li>
-  <li>Numbers divisible by 15 become "pingpong"</li>
-</ol>
-<form class="form-inline" id="myForm">
-    <div class="form-group">
-      <label for="userInput">Enter your number here:</label>
-      <input type="text" id="user" placeholder="Enter number here">
+    <div class="jumbotron">
+      <h1><strong>my ping pong</strong></h1>
     </div>
-    <button type="submit" class="btn btn-info">submit</button>
-</form>
+    <div class="testing">
+      <div class="sidebar test" id="aa">
+        <h2><strong>PING PONG</strong></h2>
+        <h3>Created by;</h3>
+        <p><em>Tonny muchui</em></p>
+        <h4> <em>manipulation</em></h4>
+      </div>
+      <div class="cont test">
+        <h2>Let's play</h2>
+        <h3>Rules;</h3>
+        <p>ping pong will count up to your numbers from 1 with the following exceptions:</p>
+        <ol>
+          <li>Numbers divisible by 3 become "ping"</li>
+          <li>Numbers divisible by 5 become "pong"</li>
+          <li>Numbers divisible by 15 become "pingpong"</li>
+        </ol>
+        <div class="form-group">
+          <form class="form-inline" id="myForm">
+            <label for="userInput">Enter your number here:</label>
+            <input type="text" id="user" placeholder="Enter number here">
+            <button type="submit" class="btn btn-info">Run</button>
+          </form>
+    </div>
+    <div class="container">
+      <p id="display"></p>
+    </div>
+  </div>
+    </div>
 </div>
-<p id="display"></p>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
+
 </html>
