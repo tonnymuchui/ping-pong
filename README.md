@@ -10,11 +10,11 @@ This is a software programme that manupilates numbers in that:
     Input               Output
     3		            1.2,ping.
 
-* All the numbers divisible by 3 are replaced by ping.
+* All the numbers divisible by 5 are replaced by pong.
     Input               Output
     5		            1,2,3,4,pong.
 
-* All the numbers divisible by 3 are replaced by ping.
+* All the numbers divisible by 15 are replaced by pingpong.
     Input               Output
     15		            1,2,3,4,5,6,7,8,9,10,11,12,13,14,pingpong.
 
